@@ -32,7 +32,7 @@ class Solution{
         return head;
       }
 
-      void display(Node *head)
+      void Display(Node *head)
       {
           Node *start=head;
           while(start)
@@ -52,6 +52,6 @@ int main()
         cin>>data;
         head=mylist.insert(head,data);
     }	
-	mylist.display(head);
+	mylist.Display(head);
 		
 }
