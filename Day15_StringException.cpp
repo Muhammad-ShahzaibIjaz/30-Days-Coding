@@ -6,10 +6,10 @@ using namespace std;
 
 int main()
 {
-    string S;
-    getline(cin, S);
+    string line;
+    getline(cin, line);
     try{
-        int num = stoi(S);
+        int num = stoi(line);
         cout << num << endl;
     }
     catch(exception e){
