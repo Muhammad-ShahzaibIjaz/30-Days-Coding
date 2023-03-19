@@ -22,7 +22,7 @@ int main()
     int T,n,p;
     cin>>T;
     while(T-->0){
-      if(scanf("%d %d",&n,&p)==2){
+      if(cin >> n >> p){
          try{
                int ans=myCalculator.power(n,p);
                cout<<ans<<endl; 
