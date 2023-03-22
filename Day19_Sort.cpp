@@ -29,10 +29,10 @@ int main()
     }
     int N = a.size();
     int numSwaps = 0;
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < N; i++) {
         // Track number of swaps
         int swap_count = 0;
-        for (int j = 0; j < n - 1; j++) {
+        for (int j = 0; j < N - 1; j++) {
             if (a[j] > a[j + 1]) {
                 swap(a[j], a[j + 1]);
                 swap_count++;
