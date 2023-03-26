@@ -76,7 +76,8 @@ int main()
 {
 	Node* head=NULL;
   	Solution mylist;
-    int T,data;
+    int T
+    int data;
     cin>>T;
     while(T-->0){
         cin>>data;
