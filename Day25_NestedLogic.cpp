@@ -36,15 +36,15 @@ int calculateFine(vector<int> &returnedDate, vector<int> &dateDue){
 
 int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */
-    string s;
-    string s1;
-    getline(cin,s);
-    getline(cin,s1); 
+    string date1;
+    string date2;
+    getline(cin,date1);
+    getline(cin,date2); 
     const char delim = ' '; 
     vector<int> dateReturned;
     vector<int> dateDue; 
-    tokenize(s, delim, dateReturned); 
-    tokenize(s1, delim, dateDue);
+    tokenize(date1, delim, dateReturned); 
+    tokenized(date2, delim, dateDue);
     cout << calculateFine(dateReturned,dateDue) << endl;
     return 0;
 }
