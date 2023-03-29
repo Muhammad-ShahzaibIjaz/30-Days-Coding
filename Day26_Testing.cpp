@@ -87,6 +87,6 @@ int main() {
     TestWithEmptyArray();
     TestWithUniqueValues();
     TestWithExactlyTwoDifferentMinimums();
-    cout << "OK" << endl;
+    cout << "Ok" << endl;
     return 0;
 }
