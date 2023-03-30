@@ -14,7 +14,7 @@ int main()
     getline(cin, N_temp);
 
     int N = stoi(ltrim(rtrim(N_temp)));
-    vector<string> names;
+    vector<string> namesList;
     for (int N_itr = 0; N_itr < N; N_itr++) {
         string first_multiple_input_temp;
         getline(cin, first_multiple_input_temp);
@@ -26,11 +26,11 @@ int main()
         string emailID = first_multiple_input[1];
         
         if (emailID.substr(emailID.length() - 10) == "@gmail.com") {
-            names.push_back(firstName);
+            namesList.push_back(firstName);
         }
     }
-    sort(names.begin(), names.end());
-    for (string name : names) {
+    sort(namesList.begin(), namesList.end());
+    for (string name : namesList) {
         cout << name << endl;
     }
 
