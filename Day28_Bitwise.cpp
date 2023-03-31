@@ -6,15 +6,6 @@ string ltrim(const string &);
 string rtrim(const string &);
 vector<string> split(const string &);
 
-/*
- * Complete the 'bitwiseAnd' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts following parameters:
- *  1. INTEGER N
- *  2. INTEGER K
- */
-
 int bitwiseAnd(int N, int K) {
     int maxAnd = 0;
     for (int A = 1; A <= N; A++) {
