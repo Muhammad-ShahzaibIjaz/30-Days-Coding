@@ -16,10 +16,10 @@ struct Student{
 };
 
 int main() {
-    Student st;
+    Student st1;
     
-    cin >> st.age >> st.first_name >> st.last_name >> st.standard;
-    cout << st.age << " " << st.first_name << " " << st.last_name << " " << st.standard;
+    cin >> st1.age >> st1.first_name >> st1.last_name >> st1.standard;
+    cout << st1.age << " " << st1.first_name << " " << st1.last_name << " " << st1.standard;
     
     return 0;
 }
