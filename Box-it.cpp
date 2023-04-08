@@ -65,7 +65,7 @@ class Box {
 //ostream& operator<<(ostream& out, Box& B)
 
 
-void check2()
+void Check2()
 {
 	int n;
 	cin>>n;
@@ -115,5 +115,5 @@ void check2()
 
 int main()
 {
-	check2();
+	Check2();
 }
