@@ -6,7 +6,7 @@ int main() {
     int num; cin >> num;
     cout << setiosflags(ios::uppercase);
     cout << setw(0xf) << internal;
-    while(T--) {
+    while(num--) {
         double A; cin >> A;
         double B; cin >> B;
         double C; cin >> C;
