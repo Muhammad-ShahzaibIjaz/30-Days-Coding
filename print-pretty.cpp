@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    int T; cin >> T;
+    int num; cin >> num;
     cout << setiosflags(ios::uppercase);
     cout << setw(0xf) << internal;
     while(T--) {
