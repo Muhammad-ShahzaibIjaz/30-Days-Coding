@@ -33,9 +33,9 @@ class Equilateral : public Isosceles{
 
 int main(){
   
-    Equilateral eqr;
-    eqr.equilateral();
-    eqr.isosceles();
-    eqr.triangle();
+    Equilateral eqi;
+    eqi.equilateral();
+    eqi.isosceles();
+    eqi.triangle();
     return 0;
 }
