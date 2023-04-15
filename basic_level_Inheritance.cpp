@@ -28,9 +28,9 @@ class Isosceles : public Triangle{
 
 
 int main(){
-    Isosceles isc;
-    isc.isosceles();
-  	isc.description();
-    isc.triangle();
+    Isosceles isc1;
+    isc1.isosceles();
+  	isc1.description();
+    isc1.triangle();
     return 0;
 }
