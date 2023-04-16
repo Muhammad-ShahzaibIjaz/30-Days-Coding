@@ -14,7 +14,7 @@ int main() {
 
     set<int> s;
 
-    while (q--) {
+    while (q--){
         int type, x;
         cin >> type >> x;
 
