@@ -10,12 +10,12 @@ using namespace std;
 
 int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */
-    int n;
-    cin >> n;
+    int inputNum;
+    cin >> inputNum;
 
     map<string, int> marks;
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < inputNum; i++) {
         int query;
         string name;
         cin >> query >> name;
