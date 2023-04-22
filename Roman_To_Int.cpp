@@ -27,10 +27,10 @@ int romanToInt(string s) {
 }
 
 int main() {
-    string romanNumeral;
+    string romanNum;
     cout << "Enter a Roman numeral: ";
-    cin >> romanNumeral;
-    int result = romanToInt(romanNumeral);
+    cin >> romanNum;
+    int result = romanToInt(romanNum);
     cout << "The equivalent integer value is " << result << endl;
     return 0;
 }
