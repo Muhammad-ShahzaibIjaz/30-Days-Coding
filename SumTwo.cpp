@@ -1,11 +1,17 @@
+#include<stdio.h>
+using namespace std;
+
+
+
 vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int, int> hashmap;
-        for (int i = 0; i < nums.size(); i++) {
-            int complement = target - nums[i];
-            if (hashmap.count(complement)) {
-                return {hashmap[complement], i};
-            }
-            hashmap[nums[i]] = i;
+    unordered_map<int, int> hashmap;
+    for (int i = 0; i < nums.size(); i++) {
+        int complement = target - nums[i];
+        if (hashmap.count(complement)) {
+            return {hashmap[complement], i};
         }
-        return {};
+        hashmap[nums[i]] = i;
     }
+    return {};
+}
+
