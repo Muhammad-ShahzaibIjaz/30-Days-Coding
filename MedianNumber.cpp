@@ -1,3 +1,5 @@
+#include<iostream>
+using namespace std;
 double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
     int n1 = nums1.size(), n2 = nums2.size();
     if (n1 > n2) {
