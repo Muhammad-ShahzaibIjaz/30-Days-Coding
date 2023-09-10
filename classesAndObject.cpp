@@ -17,13 +17,6 @@ class Student{
             }
         }
         
-        int calculateTotalScore(){
-            int result = 0;
-            for(int i = 0; i < 5; i++){
-                result += this->scores[i];
-            }
-            return result;
-        }
 };
 int main() {
     int n; // number of students
@@ -32,18 +25,6 @@ int main() {
     
     for(int i = 0; i < n; i++){
         s1[i].input();
-    }
-
-    // calculate kristen's score
-    int kristen_score = s1[0].calculateTotalScore();
-
-    // determine how many students scored higher than kristen
-    int count = 0; 
-    for(int i = 1; i < n; i++){
-        int total = s1[i].calculateTotalScore();
-        if(total > kristen_score){
-            count++;
-        }
     }
 
     // print result
