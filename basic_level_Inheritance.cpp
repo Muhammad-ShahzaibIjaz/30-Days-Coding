@@ -32,5 +32,6 @@ int main(){
     isc1.isosceles();
   	isc1.description();
     isc1.triangle();
+    cout << "Hellow World" << endl;
     return 0;
 }
