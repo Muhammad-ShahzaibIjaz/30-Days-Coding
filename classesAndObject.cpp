@@ -28,7 +28,6 @@ int main() {
     }
 
     // print result
-    cout << count;
     cout << n;
     
     return 0;
